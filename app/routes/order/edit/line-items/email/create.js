@@ -17,6 +17,7 @@ export default Route.extend(FormMixin, RouteQueryManager, {
       ],
       identityFilters: [],
       archived: false,
+      externalLinks: [],
     }
   },
 

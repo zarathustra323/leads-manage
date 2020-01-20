@@ -98,5 +98,9 @@ export default Controller.extend(FormMixin, {
     setIdentityFilters(filters) {
       this.set('model.identityFilters', filters);
     },
+
+    setExternalLinks(externalLinks) {
+      this.set('model.externalLinks', externalLinks);
+    },
   },
 });
